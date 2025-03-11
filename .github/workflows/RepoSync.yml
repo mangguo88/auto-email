@@ -9,7 +9,7 @@ jobs:
   sync_latest_from_upstream:
     name: 自动同步上游仓库
     runs-on: ubuntu-latest
-    if: ${{ github.event.repository.fork }} # 仅在 fork 仓库中运行
+    if: ${{ github.event.repository.fork }} # 仅在 fork 仓库中运行  
     env:
       UPSTREAM_REPO: yutian81/auto-email # 在这里定义上游仓库，格式为“用户名/仓库名”
       UPSTREAM_REPO_BRANCH: main # 定义上游仓库的分支
