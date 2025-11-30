@@ -1,4 +1,4 @@
-🌟 一、核心功能
+##🌟 一、核心功能##
 
 定时发送邮件
 
@@ -39,7 +39,7 @@ worker方式部署的，如果使用了最新脚本无法访问前端网页，�
   "smtp_pass": "your_password",
   "from_email": "your_email@example.com",
   "to_emails": [
-    "recipient1@example.com",
+    "recipient1@example.com",  
     "recipient2@example.com",
     "recipient3@example.com",
     "recipient4@example.com",
